@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.navbar{
+
+border: none;
+background-color: grey;
+color: black;
+}
+body{
+	background-color: white;
+	color: white;
+}
+#main-content{
+	/*margin:0px 25px;*/
+}
+
+.center{
+	width: 100%;
+	background-color: grey;
+
+}
+.container
+{
+	background-color: grey;
+}
+.text-center{
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+}
+#myNavbar ul li a {
+	color: white;
+	text-align: center;
+}
+.navbar-inverse .navbar-brand {
+	color:black;
+font-size: 30px;
+}
+.navbar-inverse .navbar-brand:hover{
+	color: black;
+}
+.navbar-inverse .navbar-toggle:hover{
+	background-color: white;
+}
+.navbar-toggle{
+	background-color: white;
+
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+	background: black;
+}
+@media(max-width:768px){
+	#main-content{
+		margin:0px 25px;
+	}
+}
